@@ -1,0 +1,11 @@
+---
+layout: portfolio
+title:  "Project 1"
+date:   2017-12-04 21:15:05 +0000
+image: /assets/images/kitten2.jpg
+categories: portfolio
+---
+
+
+
+I made a thing!

@@ -1,0 +1,21 @@
+---
+layout: portfolio
+title:  "Text analysis project"
+date:   2017-12-04 21:15:05 +0000
+image: /assets/images/smog_app.jpg
+categories: portfolio
+---
+
+This application was created to aid my dissertation project. It analyses texts to calculate the SMOG (Simple Measure of Gobbledygook) readability formula. This readability formula was created by Harry McLaughlin to estimate the years of education needed to understand a piece of writing.
+
+The application also displays the number of words of a certain letter length in a graphical display using Highcharts.js.
+
+![Highcharts graphical representation]({{ "/assets/images/highchart_graph.png" | absolute_url }}){:class="blackBorder z-depth-3"}
+
+
+
+
+## Languages and libraries 
+
+![Node logo]({{"/assets/images/nodejs.png" | absolute_url }}){:class="scale-me"}
+![Node logo]({{"/assets/images/highchartslogo.jpg" | absolute_url }}){:class="scale-me"}
