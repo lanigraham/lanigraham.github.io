@@ -1,11 +1,20 @@
 ---
 layout: portfolio
-title:  "Project 1"
-date:   2017-12-04 21:15:05 +0000
-image: /assets/images/kitten2.jpg
+title:  "Coursework Projects"
+date:   2018-01-10 21:15:05 +0000
+image: /assets/images/coursework.gif
 categories: portfolio
+blerb: "Some projects created during my Masters"
 ---
 
+## Data Mining
 
+Analysis of a dataset using data exploration and data mining techniques in SPSS modeller such as clustering and decision trees.
 
-I made a thing!
+## Information Visualisation
+
+Analysis of tuberculosis data and creating interactive displays of useful information using HTML, JavaScript, JQuery, CSS.  
+
+## Applications programming
+
+First coded program using Java, this was a music player which could play songs from a library; add new songs and remove songs. The application could also create playlists and import albums.
