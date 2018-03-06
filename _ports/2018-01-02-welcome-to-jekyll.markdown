@@ -3,7 +3,7 @@ layout: portfolio
 title:  "Dissertation project"
 date:   2018-01-02 16:02:55 +0000
 categories: portfolio
-image: "/assets/images/dissertation_project.png"
+image: "/assets/images/Dissertation_project.png"
 blerb: "My dissertation project was designed to evaluate current practices in Web usability for dyslexic individuals. An online experiment was created where both dyslexic and non-dyslexic individuals read a number of standardised texts looking at a number of variables including: font style, font size, line spacing, word spacing, background colour, text colour, and use of a screen ruler"
 ---
 
