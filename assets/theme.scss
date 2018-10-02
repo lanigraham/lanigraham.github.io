@@ -12,10 +12,8 @@
 }
 
 
-
-
 .parallax-container {
-      height: 700px;
+      height: 800px;
     }
 
 .image-distorter {
@@ -58,3 +56,72 @@
   width: 20px;
   height: 20px;
 }
+
+//materialise centre or center-aligh or any other helper method failed to work, so created own
+.center-image {
+  height: 65%;
+  width: 65%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#arc {
+  @media screen and (max-width: 466px){
+      max-height: 50%;
+      min-height: 200px;
+
+    }
+
+}
+
+#searchLanguages {
+  @media screen and (max-width: 466px){
+    table, thead, tbody, tfoot, tr, th, td {
+    display: block;
+}
+td:first-child, td:nth-child(2), td:nth-child(3){
+    box-sizing: border-box;
+    width: 25%;
+    float: left;
+    padding: 10px;
+}
+
+td:nth-child(4), td:nth-child(5) {
+  width: 25%;
+  padding-top: 5px;
+  float: left;
+  padding: 10px;
+
+}
+
+td {
+    padding: 15px;
+    margin: 15px;
+
+}
+
+
+
+}
+}
+
+
+// #profile-pic {
+//   @media screen and (max-width: 466px){
+//     max-width: 50%;
+//     min-width: 140px;
+//     height: auto;
+//   }
+//
+// }
+
+// #CVbtn {
+//   @media screen and (max-width: 466px){
+//     display: block;
+//     left: 80%;
+//     float: left;
+//     margin-right: 200px;
+//
+//   }
+// }

@@ -3,7 +3,7 @@
 {% for portfolio in site.ports %}
 
 
-<div class="col s6">
+<div id="portfolio-cards" class="col s12 m6 l6">
 <div class="card ">
   <div class="card-image waves-effect waves-block waves-light">
     <img class="activator image-distorter" src={{portfolio.image}}>
@@ -15,6 +15,7 @@
   <div class="card-reveal">
     <span class="card-title grey-text text-darken-4">{{portfolio.title}}<i class="material-icons right">close</i></span>
     <p>{{portfolio.blerb}}</p>
+    <p><a href="{{ portfolio.url | relative_url }}"> Read more!</a></p>
   </div>
 </div>
 </div>

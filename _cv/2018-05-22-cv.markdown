@@ -1,0 +1,246 @@
+---
+layout: CV
+title:  "CV"
+date:   2018-01-10 21:15:05 +0000
+categories: CV
+---
+
+
+[Introduction](){: .teal-text id="introductionBtn"} -- [Relevant experience](){: .teal-text id="experienceBtn"} -- [Modules taken](){: .teal-text id="modulesBtn"} -- [Languages and programs](){: .teal-text id="languagesBtn"} -- [Education](){: .teal-text id="educationBtn"} -- [Work experience](){:.teal-text id="workBtn"} -- [Additional experiences](){: .teal-text id="additionBtn"} -- [Hobbies](){: .teal-text id="hobbiesBtn"} -- [Other information](){: .teal-text id="otherBtn"} -- [Contact](){: .teal-text id="contactBtn"}
+{: style="text-align: center"}
+
+
+## Introduction
+
+
+{:id="pIntro"}
+I am a polite, cheerful, and creative individual who is eager to explore new technologies and apply a pragmatic mindset to an exciting new role in software development. I recently graduated from the University of East Anglia with a Masters in Computer Science, achieving a distinction. The course demanded good organisational skills whilst working to tight deadlines, as well as the ability to acquire new knowledge quickly. I have good people skills, strengthened by my time working in retail. My biology degree allowed me to have a methodological mindset to approaching problems with critical analysis and statistical knowledge.
+
+I am a hard worker who thrives working in a team, as well as independently.
+{: .section}
+
+()
+{:.divider}
+
+
+## Relevant experience
+{:id="pExperience"}
+
+
+**[Third year project:]({{'/portfolio/2018-01-02-welcome-to-jekyll' | relative_url}})**
+  - This project looked at the usability of text and layout formats for the learning disability dyslexia.
+  - Crated a usable online reading environment for a wide range of ages and disabilities by using UX methods such as think-aloud testing.
+  - Recorded reading time, font styles, and colours used in the experiment for dyslexic and non-dyslexic individuals.
+  - Statistical analysis of results using R.
+
+**[Side Project]({{'/portfolio/2018-01-09-project-2' | relative_url}})**
+  - Created an online tool to help standardise texts to the same difficulty for the above project.
+  - Displaying information with highcharts.js
+  - Analyse texts to calculate readability level.
+
+
+
+
+
+()
+{:.divider}
+
+
+
+## Modules taken
+{: id="pModules"}
+
+<ul class="collapsible">
+  <li>
+    <div class="collapsible-header">
+        <strong>Application programming</strong>
+        <i class="material-icons">arrow_drop_down</i>
+    </div>
+    <div class="collapsible-body">
+        We learnt the fundamentals of object orientated programming in Java as well as object orientated methodologies for developing software. This module also covered UML for design and software development life cycle models. As well as software testing techniques. The coursework including making a GUI music player using Java AWT/SWING.
+    </div>
+  </li>
+  <li>
+    <div class="collapsible-header">
+        <strong>Database manipulation</strong>
+        <i class="material-icons">arrow_drop_down</i>  
+    </div>
+    <div class="collapsible-body">
+        We learnt about relational database creation using Entity-Relationship modelling and normalisation. As well as the manipulation of the database with SQL using PostgreSQL, including the use of java JDBC for database access.
+    </div>
+  </li>
+  <li>
+    <div class="collapsible-header">
+        <strong>Internet and multimedia techniques</strong>
+        <i class="material-icons">arrow_drop_down</i>
+    </div>
+    <div class="collapsible-body">
+        We learnt the basics of HTML, CSS, JavaScript (including jQuery) to build and deploy a website for the coursework. The module also covered the fundamentals of how the Web worked and the current issues and impacts it has on society (usability, accessibility, security).
+
+    </div>
+    </li>
+    <li>
+      <div class="collapsible-header">
+          <strong>Data mining</strong>
+          <i class="material-icons">arrow_drop_down</i>
+      </div>
+      <div class="collapsible-body">
+          We learnt about the KDD process including preliminary data exploration, data cleansing and pre-processing. Followed closely by data mining where we learnt about clustering, classification and association rule induction. We mined a Forest Cover Type dataset using SPSS modeler which can be found <a href="https://www.kaggle.com/c/forest-cover-type-prediction/data" target="_blank"> here </a>. Tasks included cleansing, pre-processing and mining (decision trees, clustering). Findings were presented in a technical report.
+      </div>
+    </li>
+    <li>
+      <div class="collapsible-header">
+          <strong>Data visualisation</strong>
+          <i class="material-icons">arrow_drop_down</i>
+      </div>
+      <div class="collapsible-body">
+          We learnt techniques for presenting and summarising a wide range of data in an informative and understandable way. The module also covered issues with data misrepresentation and problems with large datasets and integrating data from multiple sources. The coursework involved presenting a dataset using Highcharts.js.
+      </div>
+    </li>
+    <li>
+      <div class="collapsible-header">
+          <strong>Research techniques</strong>
+          <i class="material-icons">arrow_drop_down</i>
+      </div>
+      <div class="collapsible-body">
+          We learnt about basic statistical analysis and how to use LaTeX to present out work. This module also covered ethics, social and legal issues in computer science.
+      </div>
+    </li>
+    <li>
+      <div class="collapsible-header">
+          <strong>Dissertation</strong>
+          <i class="material-icons">arrow_drop_down</i>
+      </div>
+      <div class="collapsible-body">
+          I chose to address the usability issues dyslexic individuals face with websites and how well the British Dyslexia Association (BDA) guidelines address these. I collected information using a website I built that timed both dyslexic and non-dyslexic reading times faced with a variety of parameters. I also created a selection of texts for this project which I standardised using a <a href="{{'/portfolio/2018-01-09-project-2' | relative_url}}">text-analysis Web app</a> I created. Using R and statistical analysis I uncovered the best parameters for reading time in both dyslexic and non-dyslexic individuals, and then compared these to the BDA guidelines. To read more click <a href="{{'/portfolio/2018-01-02-welcome-to-jekyll' | relative_url}}" >here.</a>
+      </div>
+    </li>
+</ul>
+(_)
+{:.divider}
+
+
+
+
+## Languages and Programs
+{:id="pLanguages"}
+
+**Software**
+  - Microsoft Office
+  - SPSS modeler
+  - SPSS statistics
+  - LaTeX
+  - Atom
+
+**Languages**
+
+The languages below contain all the languages I have been involved with through both personal interest and university study.
+
+Please feel free to use the search below to find specific languages. Languages that match your search will highlight red.
+<br/>
+<br/>
+
+
+
+   <form id="handleSearch" onsumbit="handleSearch()" class="col s12">
+     <div class="row">
+       <div class="input-field col s6">
+         <input placeholder="Enter a language" id="languages" type="text" class="validate">
+         <label for="languages">Search languages</label>
+       </div>
+    </div>
+  </form>
+
+
+
+|  HTML  |   CSS   | JavaScript   | jQuery | Node.js |
+| Express.js  | Highcharts.js | Bootstrap.js | Materialize | Material ui |
+|  MySQL  |   PostGreSQL   | Jasmine | Mocha | Selenium |
+| Jekyll | Git | Java | SQL | JUnit |
+| R | AngularJS | React.js | JSON | AJAX |
+| Objective C |
+{: id="searchLanguages"}
+
+<br/>
+
+()
+{:.divider}
+
+## Education
+{:id="pEducation"}
+
+| 2016 - 2017   |  University of East Anglia <br> **MSc Computer Science: Distinction**      |
+| 2013 - 2016   |  University of East Anglia <br> **BSc Biological Sciences: 2:1**   |
+| 2009 - 2013 |  New Hall School <br> **A-Levels:** Biology **(A)**, Business **(A)**, Maths **(B)** <br> **11 GCSE's:** ranging from **A* to B** including Maths and English |
+
+
+
+()
+{:.divider}
+
+## Other work experience
+{:id="pWork"}
+**Harvester Farm Kennels - Kennel maid**
+
+- Cared for dogs and cats with a team of staff members
+- Cleaned and maintained hygienic kennels and staff areas
+- Maintain customer impressions of a safe and clean environment for their pets
+- Daily walk to all the dogs staying in the kennel
+{: .browser-default}
+
+**The White Horse**
+
+- Pub work including pot washing and waitressing
+- Maintaining a clean environment for customers to eat
+- Serving customers while maintaining excellent levels of customer service
+{: .browser-default}
+
+**Debenhams - Sales Advisor**
+
+- Help customers have an enjoyable shopping experience in the shoe, bag, and jewellery sections of the store
+- Maintain a clean shop floor
+- Fast paced till service and delivery unpacking.
+- Cashing up and preparing the shop floor for various sales events.
+{: .browser-default}
+
+()
+{:.divider}
+
+## Additional experiences
+{: id="pAdditional"}
+
+
+- **[Sync the City Norwich (2016)](http://syncthecity.com/){:target="_blank"}**
+  + A 54 hour start up event where developers, business managers, marketing individuals, graphic designers, and entrepreneurs pitch innovative ideas for new startup companies.
+- **BT hackathon event (2017)**
+  + BT visited the University of East Anglia to host a hackathon event. The event was based around a capture the flag game where we competed with other teams at the university. We had to decode ciphers and use a range of computer skills to win.
+{: style="list-style:cirlce"}
+
+()
+{: .divider}
+
+## Hobbies
+{: id="pHobbies"}
+- Watercolour
+- Photography
+- Sports
+- Coding
+- Animals
+
+()
+{: .divider}
+
+## Other information
+{: id="pOther"}
+- UK Citizen
+- Based in Colchester
+- Full UK driving license
+- D.O.B 12/09/1994
+
+## Contact
+{: id="pContact"}
+- Linkedin: [lanigraham](https://www.linkedin.com/in/lani-graham-0b041a152/){: target="_blank"}
+- Github: [lanigraham](https://github.com/lanigraham){: target="_blank"}
+
+
+{:id="pHobbies"}
