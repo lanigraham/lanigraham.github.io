@@ -28,7 +28,7 @@ collections:
    ports:
      output: true
      permalink: /:categories/:name
-   CV:
+   cv:
       output: true
       permalink: /:categories/:name
 
