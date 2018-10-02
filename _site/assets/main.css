@@ -206,7 +206,7 @@ pre {
         line-height: 0;
         padding-top: 10px;
         text-align: center; }
-        .site-nav .menu-icon > svg path {
+        .site-nav .menu-icon > svg {
           fill: #424242; }
       .site-nav input ~ .trigger {
         clear: both;
@@ -277,10 +277,14 @@ pre {
  * Page content
  */
 .page-content {
-  padding: 30px 0; }
+  padding: 30px 0;
+  flex: 1; }
 
 .page-heading {
-  font-size: 20px; }
+  font-size: 32px; }
+
+.post-list-heading {
+  font-size: 28px; }
 
 .post-list {
   margin-left: 0;
