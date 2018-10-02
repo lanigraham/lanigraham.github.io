@@ -20,7 +20,7 @@ As so much information is now displayed on the Web, and Google is one of the pri
 <br/>  
 <br/>
 
-The chrome extension has a simple display using bootstrap. There are a few options of different colours as some companies claim that colour is personal and can affect the ability of an individual to read coherently. Although there are few studies to back this evidence. Size and opacity of the ruler is also an option, where individuals with sight difficulties might increase text size are require a larger ruler.
+The chrome extension has a simple display using bootstrap. There are a few options of different colours as some companies claim that colour is personal and can affect the ability of an individual to read coherently. Although there are few studies to back this evidence. Size and opacity of the ruler is also an option, where individuals with sight difficulties might increase text size and thus will require a larger ruler.
 
 
 <br/>
@@ -30,7 +30,9 @@ The chrome extension has a simple display using bootstrap. There are a few optio
 <br/>
 <br/>
 
-The decision to use "larger" and "smaller" buttons to increment the size instead of specifying values was to improve usability.
+The decision to use "larger" and "smaller" buttons to increment the size instead of specifying values was to improve usability. A range of colours has also been given to allow preferential choice for the user. Similarily, opacity was also chosen as a selectable feature as opacity is also a preferential choice of the user. Simple activate, and deactivate buttons were also used.
+
+The ruler covers the full width of the window.
 
 <br/>
 ![Screen ruler demo]({{ "/assets/images/screenRulerDemo.png" | absolute_url }}){:class="blackBorder z-depth-3"}
@@ -39,7 +41,7 @@ The decision to use "larger" and "smaller" buttons to increment the size instead
 <br/>
 <br/>
 
-
+It is simply a div that sits on top of the content using the css z-index. Again, using css, the size and colour can be changed. The 'smaller' button for size using increments to increase or decrease the size. The incrementation does not allow the user to go below 0 px which may cause usability issues.
 
 
 <!-- links -->
