@@ -1,0 +1,72 @@
+current directory: /Users/LaniGraham/Documents/Projects/githubWebsite/profileWebsite/vendor/bundle/ruby/3.0.0/gems/itextomml-1.6.0/ext
+/usr/local/opt/ruby/bin/ruby -I /usr/local/Cellar/ruby/3.0.1/lib/ruby/3.0.0 -r ./siteconf20210508-68642-ojapgc.rb extconf.rb
+creating Makefile
+
+current directory: /Users/LaniGraham/Documents/Projects/githubWebsite/profileWebsite/vendor/bundle/ruby/3.0.0/gems/itextomml-1.6.0/ext
+make DESTDIR\= clean
+
+current directory: /Users/LaniGraham/Documents/Projects/githubWebsite/profileWebsite/vendor/bundle/ruby/3.0.0/gems/itextomml-1.6.0/ext
+make DESTDIR\=
+compiling itex2MML_ruby.c
+itex2MML_ruby.c:1160:1: warning: function 'Ruby_Format_OverloadedError' could be declared with attribute 'noreturn' [-Wmissing-noreturn]
+{
+^
+1 warning generated.
+compiling lex.yy.c
+lex.yy.c:2772:33: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
+                        (yy_more_len) = (yy_c_buf_p) - (yytext_ptr);
+                                      ~ ~~~~~~~~~~~~~^~~~~~~~~~~~~~
+lex.yy.c:6492:1: warning: function 'yy_fatal_error' could be declared with attribute 'noreturn' [-Wmissing-noreturn]
+{
+^
+lex.yy.c:6065:16: warning: function 'input' is not needed and will not be emitted [-Wunneeded-internal-declaration]
+    static int input  (void)
+               ^
+3 warnings generated.
+compiling y.tab.c
+itex2MML.y:61:19: warning: initializing 'char *' with an expression of type 'const char [1]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+    static char * itex2MML_output_string = "" ;
+                  ^                        ~~
+itex2MML.y:76:35: warning: assigning to 'char *' from 'const char [1]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+           itex2MML_output_string = "";
+                                  ^ ~~
+itex2MML.y:127:9: warning: initializing 'char *' with an expression of type 'const char [1]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ char * itex2MML_empty_string = "";
+        ^                       ~~
+y.tab.c:5888:29: warning: passing 'const char [13]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+      yyerror (ret_str, YY_("syntax error"));
+                            ^~~~~~~~~~~~~~
+y.tab.c:805:22: note: expanded from macro 'YY_'
+#  define YY_(Msgid) Msgid
+                     ^~~~~
+itex2MML.y:33:46: note: passing argument to parameter 's' here
+ static void yyerror (char **ret_str, char * s)
+                                             ^
+y.tab.c:6032:25: warning: passing 'const char [17]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+  yyerror (ret_str, YY_("memory exhausted"));
+                        ^~~~~~~~~~~~~~~~~~
+y.tab.c:805:22: note: expanded from macro 'YY_'
+#  define YY_(Msgid) Msgid
+                     ^~~~~
+itex2MML.y:33:46: note: passing argument to parameter 's' here
+ static void yyerror (char **ret_str, char * s)
+                                             ^
+itex2MML.y:1039:22: warning: implicit conversion loses integer precision: 'unsigned long' to 'int' [-Wshorten-64-to-32]
+  int code = 0x1D7D8 + strtoul(yyvsp[0], &end, 10);
+      ~~~~   ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+itex2MML.y:1919:2: warning: unused label '_until_html' [-Wunused-label]
+ _until_html:
+ ^~~~~~~~~~~~
+itex2MML.y:43:14: warning: unused function 'itex2MML_default_write' [-Wunused-function]
+ static void itex2MML_default_write (const char * buffer, size_t length)
+             ^
+itex2MML.y:54:14: warning: unused function 'itex2MML_default_write_mathml' [-Wunused-function]
+ static void itex2MML_default_write_mathml (const char * mathml)
+             ^
+9 warnings generated.
+linking shared-object itex2MML.bundle
+ld: warning: dylib (/usr/local/Cellar/ruby/3.0.1/lib/libruby.3.0.dylib) was built for newer macOS version (11.0) than being linked (10.15.6)
+
+current directory: /Users/LaniGraham/Documents/Projects/githubWebsite/profileWebsite/vendor/bundle/ruby/3.0.0/gems/itextomml-1.6.0/ext
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 itex2MML.bundle ./.gem.20210508-68642-tssrtp
